@@ -1,7 +1,7 @@
-swap_max(arr,l,n)
+void swap_max(arr,l,n)
 {      int a=0;
-       int largest=arr[l];
-      for (i = l; i <= n; i++) 
+       int largest=0;
+      for (int i = l; i <= n; i++) 
            {
              if(largest<arr[i])
                  largest=arr[i];
@@ -10,7 +10,7 @@ swap_max(arr,l,n)
                     arr[i] = arr[l];
                     arr[l] = a;
 }
-ssort(arr,int n)
+void ssort(arr,int n)
 {
   for(i=0;i<n-1;i++)
      {
