@@ -1,7 +1,8 @@
 void swap_max(arr,l,n)
-{      int a=0;
-       int largest=0;
-      for (int i = l; i <= n; i++) 
+{      int a;
+       int largest=arr[l];
+        int i;
+      for (i = l; i <= n; i++) 
            {
              if(largest<arr[i])
                  largest=arr[i];
